@@ -1,19 +1,19 @@
 exports = typeof window === 'undefined' ? global : window;
 
 exports.numbersAnswers = {
-  valueAtBit: function(num, bit) {
+  valueAtBit: (num, bit) => {
 
   },
 
-  base10: function(str) {
+  base10: str => {
 
   },
 
-  convertToBinary: function(num) {
+  convertToBinary: num => {
 
   },
 
-  multiply: function(a, b) {
+  multiply: (a, b) => {
 
   }
 };

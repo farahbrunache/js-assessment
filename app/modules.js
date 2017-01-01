@@ -1,7 +1,7 @@
 exports = typeof window === 'undefined' ? global : window;
 
 exports.modulesAnswers = {
-  createModule: function(str1, str2) {
+  createModule: (str1, str2) => {
 
   }
 };
